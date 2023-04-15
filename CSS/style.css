@@ -128,11 +128,15 @@
 
   .background{
     position: absolute;
-    width: 220vw;
+    width: 100%;
+    height: 120%;
   }
 
   .clouds{
-    display: none; /* esconde as nuvens em telas menores */
+    position: absolute;
+    width: 200px;
+    bottom: 250px;
+    animation: clouds-animation 3s infinite linear;
   }
   .pipe {
     position: absolute;
