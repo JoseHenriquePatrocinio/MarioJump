@@ -80,7 +80,7 @@
 
   .background{
     position: absolute;
-    width: 250vw;
+    width: 400vw;
   }
 
   .clouds{
@@ -94,6 +94,25 @@
     bottom: -5px;
     width: 65px;
     animation: pipe-animation 1s infinite linear;
+  }
+
+  .restart-btn {
+    position: absolute;
+    top: 200px;
+    right: 10px;
+    background-color: #f44336;
+    color: white;
+    font-size: 24px;
+    z-index: 1;
+  }
+
+  .score {
+    position: absolute;
+    top: 200px;
+    right: 150px;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
   }
 
 }
