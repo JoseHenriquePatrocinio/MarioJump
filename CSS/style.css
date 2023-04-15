@@ -80,7 +80,7 @@
 
   .background{
     position: absolute;
-    width: auto;
+    width: 500px;
   }
 
   .clouds{
@@ -98,7 +98,7 @@
 
   .restart-btn {
     position: absolute;
-    top: 40px;
+    top: 60px;
     right: 10px;
     background-color: #f44336;
     color: white;
@@ -108,7 +108,7 @@
 
   .score {
     position: absolute;
-    top: 40px;
+    top: 60px;
     right: 150px;
     font-size: 40px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
