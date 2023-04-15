@@ -98,6 +98,32 @@
 
 }
 
+@media only screen and (max-width: 600px) {
+  /* Regras de estilo para telas menores do que 601px */
+
+  .mario {
+    width: 60px;
+    position: absolute;
+    bottom: 0;
+  }
+
+  .background{
+    position: absolute;
+    width: 220vw;
+  }
+
+  .clouds{
+    display: none; /* esconde as nuvens em telas menores */
+  }
+  .pipe {
+    position: absolute;
+    bottom: -5px;
+    width: 50px;
+    animation: pipe-animation 1s infinite linear;
+  }
+}
+
+
 @media only screen and (min-width: 601px) and (max-width: 1024px) {
   /* Regras de estilo para telas entre 601px e 1024px */
 
