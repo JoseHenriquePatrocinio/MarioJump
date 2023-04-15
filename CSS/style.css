@@ -27,7 +27,7 @@
 }
 
 .mario {
-  width: 800px;
+  width: 150px;
   position: absolute;
   bottom: 0;
 }
@@ -180,7 +180,7 @@
   /* Regras de estilo para telas maiores que 1025px */
 
   .mario {
-    width: 100px;
+    width: 300px;
     position: absolute;
     bottom: 0;
   }
