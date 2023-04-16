@@ -55,3 +55,4 @@ restartButton.addEventListener("click", () => {
 
 //ao clicar, a função jump() é chamada
 document.addEventListener("click", jump);
+document.addEventListener("keydown", jump);
